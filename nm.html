@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity web</title>
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <style>
+        body{
+            background-image: url(index.jpg);
+            background-size: cover;
+        }
+
+.d-table{
+  display: table;
+  width: 90%;
+  background: #a8a8a8;
+  opacity: .4;
+  border-radius: 8px;
+}
+.d-tr{
+  display: table-row;
+}
+.d-td{
+  display: table-cell;
+  text-align: center;
+  border: none;
+  vertical-align: middle;
+}
+.b{
+    font-size: 50px;
+    color: rgb(51, 51, 51);
+    -webkit-text-stroke: 0.9px rgb(0, 0, 0);
+}
+.hr{
+  width: 50%;
+  height: 1px;
+background-color: rgb(0, 0, 0);
+}
+.b2{
+  font-size: 25px;
+    color: rgb(43, 42, 42);
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+}
+
+.shine-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #596648;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #596648;
+  transition: .2s ease-in-out;
+  width: 15%;
+  opacity: .5;
+}
+.shine-button:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.shine-button:hover {
+  background: #596648;
+  color: #fff;
+}
+.shine-button:hover:before {
+  left: 280px;
+  transition: .5s ease-in-out;
+}
+.cl{
+        display: contents;
+        justify-content: space-around;
+}
+.b1{
+    color: rgb(145, 145, 145);
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+</style>
+   
+   
+   <script>
+        function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+    </script>
+</head>
+<body>
+    <center><a href="index.html" class="shine-button"><b>назад</b></a></center>
+    <br><br><br>
+    <center>
+        <b class="b1">↓Номер телефона↓</b>
+        <br><br>
+    <input style="width: 20%; height: 20px;" type="text" value="+380 97 603 6379" id="myInput">
+
+
+    <button style="width: 7%; height: 25px;" onclick="myFunction()">копировать</button>
+    
+    <br><br><br>
+    <b class="b1">↓Почта↓</b>
+    <br><br>
+<input style="width: 20%; height: 20px;" type="text" value="maslennukuvilya@gmail.com" id="myInput">
+
+
+<button style="width: 7%; height: 25px;" onclick="myFunction()">копировать</button>
+</center>
+    <br><br>
+    <center>
+      <div class="cl">
+        <a href="https://www.facebook.com/profile.php?id=100052665633181"><img src="facebook.png" alt="" width="38"></a>
+        <a href="https://t.me/+Adm35QyWwXg2NTgy"><img src="telegram.png" alt="" width="38"></a>
+      </div>
+    </center>
+</body>
+</html>
